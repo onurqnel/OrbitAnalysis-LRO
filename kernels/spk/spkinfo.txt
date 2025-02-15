@@ -1,30 +1,5 @@
-General Information About SPICE SP-Kernels
-==========================================
-
-   The purpose of the SP-kernel -- which stands for S(pacecraft) and
-   P(lanet) Kernel -- is to allow ephemerides for any collection of
-   solar system bodies, spacecraft or any other objects in 3D space to
-   be combined under a common file format, and accessed by a common set
-   of subroutines.
-
-   The SPK files can be accessed and manipulated using the SPICE
-   Toolkit APIs, calls to which can be integrated into user application
-   programs. The information regarding how to obtain the SPICE system
-   toolkit for a number of languages and computer platforms is located
-   in the ``/software'' subdirectory of the main directory of this data
-   set.
-
-   To use SP-kernels, a Leapseconds (LSK) is required. Also, to use
-   SP-Kernels containing positions given relative to the non-inertial
-   and project-defined frames, a Frame Definitions (FK) and Planetary
-   Constants (PCK) files are required.
-
-   Refer to the ``spk.req'' document provided with the toolkit to get
-   more information on how to access SP-kernel data.
-
-
-LRO SP-kernels Provided in This Data Set
-========================================
+LRO SP-kernels 
+==============
 
    This directory contains the SPICE SP-kernel files for the LRO
    mission. All files are in IEEE big endian binary format.

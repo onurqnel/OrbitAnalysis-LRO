@@ -1,25 +1,5 @@
-General Information About SPICE LS-Kernels
-==========================================
-
-   In the SPICE system, Leapsecond (or LS) -kernel contains the
-   leapseconds and the values of physical constants required to perform
-   a transformation between Universal Time Coordinated (UTC) and
-   Ephemeris time (ET).
-
-   The information in an LSK file can be manipulated in conjunction
-   with other data using the SPICE Toolkit APIs, calls to which can be
-   integrated into user application programs. The information regarding
-   how to obtain the SPICE system toolkit for a number of languages and
-   computer platforms is located in the ``/software'' subdirectory of the
-   main directory of this data set.
-
-   Refer to the ``time.req'' document provided with the toolkit to get
-   more information about time conversions supported within the SPICE
-   system.
-
-
-LRO LS-Kernels Contained in This Data Set
-=========================================
+LRO LS-Kernels 
+==============
 
    The SPICE Leap Second File is a generic SPICE product that LRO
    receives from the NAIF/PDS repository. This file will be included
