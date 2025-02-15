@@ -24,8 +24,11 @@ I will determine the Moon’s mass based on spacecraft orbiting it. This method 
 
 - **Orbital Speed (v):** The speed at which an object orbits the Moon.  
 
-- **Gravitational Constant (G):**  $$ G = (6.6743 \pm 0.00015) \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2} $$
-Using these values, the Moon’s mass can be calculated with the formula: $$ \text{Moon’s Mass} = \frac{r \times v^2}{G} $$
+- **Gravitational Constant (G):**
+$$ G = (6.6743 \pm 0.00015) \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2} $$
+
+Using these values, the Moon’s mass can be calculated with the formula:
+$$ \text{Moon’s Mass} = \frac{r \times v^2}{G} $$
 
 ### Kernels
 
