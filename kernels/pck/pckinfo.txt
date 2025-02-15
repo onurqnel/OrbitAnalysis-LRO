@@ -1,0 +1,148 @@
+General Information About SPICE PC-Kernels
+==========================================
+
+   In the SPICE system, the PC-kernels contain planetary attitude and
+   body shape information. The PCK kernel includes orientation and
+   shape information pertaining to extended solar system bodies such as
+   the Sun, the planets, the natural satellites of the planets, comets,
+   and asteroids.
+
+   The purpose of the PCK kernels and associated software is to provide
+   SPICE users with a convenient mechanism for supplying planetary
+   physical constants to application programs. SPICE's PCK software is
+   able to read files conforming to the PCK format and return to a
+   calling application program both the data contained in such files
+   and a small number of commonly used numeric quantities derived from
+   the kernel data. The information regarding how to obtain the SPICE
+   system toolkit for a number of languages and computer platforms is
+   located in the ``/software'' subdirectory of the main directory of
+   this data set.
+
+   Refer to the ``pck.req'' document provided with the toolkit to get
+   more information on how to access PC-kernel data.
+
+
+LRO PC-kernel Contained In This Data Set
+========================================
+
+   The SPICE Generic PCK file is another of the generic SPICE products.
+   This "logical" product consists of two files that the LRO MOC
+   receives from the NAIF.
+
+   Time interval:         Data samples provided at 60 minute increments.
+
+   File duration:         Contains a year of information.
+
+   File or Data
+   Generation Frequency:  Regenerated, as identified by NAIF personnel.
+
+   Data Volume:           Variable; < 1 MByte.
+
+   Accuracy
+   (if it applies):       NA.
+
+
+   File Name Convention
+   --------------------
+
+   The High Precision Lunar Orientation binary PCK files included in the
+   data set shall be named according to the following naming scheme:
+
+   <File Designator>_<DE ID>_<Start Year>_<Stop Year>.<File Extension>
+
+   where
+
+   File Designator = [7 characters] token identifying the file; is
+                     "moon_pa" for High Precision Lunar Orientation
+                     binary PCK files providing orientation for the
+                     Principal Axes frame.
+
+   DE ID           = [5 characters] id of the planetary DE solution from
+                     which the orientation data was obtained;
+                     where
+                     "deNNN" where NNN is the numeric ID of the DE solution.
+
+   Start Year      = [4 characters]; file coverage start year, YYYY;
+                     where
+                     YYYY => 4 ASCII digits of year.
+
+   Stop Year       = [4 characters]; file coverage stop year, YYYY;
+                     where
+                     YYYY => 4 ASCII digits of year.
+
+   File Extension  = [3 characters] standard file extension for a binary
+                     PCK file "bpc".
+
+   The generic text PCK files included in the data set shall be named
+   according to the following naming scheme:
+
+   <File Name>.<File Extension>
+
+   where
+
+   File Name      = [8 characters] file name; is "pckNNNNN" for generic
+                    PCK files where NNNNN is the version number.
+
+   File Extension = [3 characters] standard file extension for a text
+                    PCK file "tpc".
+
+   The LRO-specific lunar shape/size text PCK files included in the data
+   set shall be named according to the following naming scheme:
+
+   <File Designator>_<Creation Date>_<Version>.<File Extension>
+
+   where
+
+   File Designator = [12 characters] token identifying the file; is
+                     "lro_lunarpck" for LRO-specific Lunar shape/size
+                     PCK files.
+
+   Creation Date   = [7 characters], file creation date in DOY form,
+                     YYYYDOY;
+                     where
+                     YYYY => 4 ASCII digits of year ("2008"-"2013")
+                     DOY => 3 ASCII digits for day of year ("001"-"366").
+
+   Version         = [3 characters] file version, vNN;
+                     where
+                     NN => a two-digit version number; the initial version
+                     is "00", next is "01" ... up to "99".
+
+   File Extension  = [3 characters] Standard file extension for a text
+                     PCK file "tpc".
+
+   The following are examples of PCK file names:
+     - Lunar Orientation binary PCK files:  moon_pa_de418_1950_2050.bpc
+     - Generic text PCK file             :  pck00008.tpc
+     - LRO-specific lunar text PCK files :  lro_lunarpck_2009012_v01.tpc
+
+
+Kernel File Details
+===================
+
+   The most detailed description of the data in a text PCK file is
+   provided in metadata included inside the description area of the
+   file. This information can be viewed using any text editor program.
+
+   The most detailed description of the data in a binary PCK file is
+   provided in metadata included inside the comment area of the file.
+   This information can be viewed using utility programs COMMNT and
+   SPACIT included into the NAIF Toolkit.
+
+
+Contact Information
+===================
+
+   Regarding Lunar Reconnaissance Orbiter project specific information
+   provided in this data set contact:
+
+      Rick Saylor
+      (301)-614-1354
+      Richard.S.Saylor@nasa.gov
+
+   address:
+
+      NASA Goddard Space Flight Center (GSFC)
+      Mail Stop 451.0
+      Building 12 Room N233
+      Greenbelt MD 20771

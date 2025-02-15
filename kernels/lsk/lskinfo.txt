@@ -1,0 +1,91 @@
+General Information About SPICE LS-Kernels
+==========================================
+
+   In the SPICE system, Leapsecond (or LS) -kernel contains the
+   leapseconds and the values of physical constants required to perform
+   a transformation between Universal Time Coordinated (UTC) and
+   Ephemeris time (ET).
+
+   The information in an LSK file can be manipulated in conjunction
+   with other data using the SPICE Toolkit APIs, calls to which can be
+   integrated into user application programs. The information regarding
+   how to obtain the SPICE system toolkit for a number of languages and
+   computer platforms is located in the ``/software'' subdirectory of the
+   main directory of this data set.
+
+   Refer to the ``time.req'' document provided with the toolkit to get
+   more information about time conversions supported within the SPICE
+   system.
+
+
+LRO LS-Kernels Contained in This Data Set
+=========================================
+
+   The SPICE Leap Second File is a generic SPICE product that LRO
+   receives from the NAIF/PDS repository. This file will be included
+   whenever the NAIF releases a new version.  This logical product
+   actually consist of two separate files based on the user's platform;
+   the file contains all of the leap second adjustments and when these
+   adjustments should be used.  This file supports the conversion between
+   ephemeris time and UTC.
+
+   Time interval:         NA; the file contains the specific times at
+                          which a leap-second is applied.
+
+   File duration:         NA.
+
+   File or Data
+   Generation Frequency:  Regenerated, as identified by NAIF personnel.
+
+   Data Volume:           Variable.
+
+   Accuracy
+   (if it applies):         Associated UTC time corresponding to the
+                           Leap-second is accurate to milliseconds.
+
+
+   File Name Convention
+   --------------------
+   The generic LSK files included in the data set shall be named according
+   to the following naming scheme:
+
+   <File Name>.<File Extension>
+
+   where
+
+   File Name      = [8 characters] file name; is "naifNNNN" for generic
+                    LSK files
+                    where
+                    NNNN is the version number
+
+   File Extension = [3 characters] standard file extension for a text LSK
+                    file "tls".
+
+   The following is an example of a LSK file name:
+     - Generic LSK file:    naif0009.tls
+
+
+Kernel File Details
+===================
+
+   The most detailed description of the data in an LSK file is provided
+   in metadata included inside the description area of the file. This
+   information can be viewed using any text editor program.
+
+
+Contact Information
+===================
+
+   Regarding Lunar Reconnaissance Orbiter project specific information
+   provided in this data set contact:
+
+      Rick Saylor
+      (301)-614-1354
+      Richard.S.Saylor@nasa.gov
+
+   address:
+
+      NASA Goddard Space Flight Center (GSFC)
+      Mail Stop 451.0
+      Building 12 Room N233
+      Greenbelt MD 20771
